@@ -19,7 +19,10 @@ Commands
 - **bookmark (url)** Bookmarks the URL and copies the URL to the clipboard. This can be disabled in config.json.
 - **delcloud** Lists the recently uploaded files. Selecting one will delete the file from CloudApp.
 - And of course, files can be uploaded to CloudApp from the file actions.
+
+
 Installation
+===
 
 The workflow is written in Python and uses pycloudapp by Luis Nell. Because I have modified this wrapper a bit to get private file uploads working, this is bundled in the workflow. You do however need to install `poster` which the wrapper uses. This is easily done using the *easy_install* command. If you don’t have *easy_install* installed (you probably do if you ever write Python scripts :-)), you can grab it here and follow the installation instructions.
 
